@@ -1,0 +1,23 @@
+test_backend_change_clears_stale_results (test_app.AppTests.test_backend_change_clears_stale_results) ... 2026-11-18 15:29:49.288 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_connect_load_trip_embed_and_predict_only_on_submit (test_app.AppTests.test_connect_load_trip_embed_and_predict_only_on_submit) ... 2026-11-18 15:29:50.844 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_connection_failure_is_shown_without_crash (test_app.AppTests.test_connection_failure_is_shown_without_crash) ... 2026-11-18 15:29:51.151 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_degraded_health_is_parsed (test_client.HttpClientTests.test_degraded_health_is_parsed) ... ok
+test_exact_endpoint_paths_and_post_payload (test_client.HttpClientTests.test_exact_endpoint_paths_and_post_payload) ... ok
+test_json_editor_preserves_payload_and_rejects_invalid_numbers (test_client.HttpClientTests.test_json_editor_preserves_payload_and_rejects_invalid_numbers) ... ok
+test_non_json_and_nonstandard_errors (test_client.HttpClientTests.test_non_json_and_nonstandard_errors) ... ok
+test_route_parsing_does_not_invent_metrics (test_client.HttpClientTests.test_route_parsing_does_not_invent_metrics) ... ok
+test_saved_evaluation_metrics_are_preserved (test_client.HttpClientTests.test_saved_evaluation_metrics_are_preserved) ... ok
+test_timeout_connection_and_other_http_failures (test_client.HttpClientTests.test_timeout_connection_and_other_http_failures) ... ok
+test_trip_path_injection_is_rejected_before_http (test_client.HttpClientTests.test_trip_path_injection_is_rejected_before_http) ... ok
+test_unexpected_health_and_catalog_are_rejected (test_client.HttpClientTests.test_unexpected_health_and_catalog_are_rejected) ... ok
+test_urls_and_base_prefix (test_client.HttpClientTests.test_urls_and_base_prefix) ... ok
+test_validation_and_busy_errors_are_friendly (test_client.HttpClientTests.test_validation_and_busy_errors_are_friendly) ... ok
+test_wrong_trip_or_prediction_source_is_rejected (test_client.HttpClientTests.test_wrong_trip_or_prediction_source_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 2.154s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "communication": "HTTP only",
+  "backend_ready": true,
+  "catalog_trips": 10,
+  "loaded_trip": "00000052",
+  "gps_observations": 262,
+  "map_http_status": 200,
+  "ui_connect_and_load_passed": true,
+  "iframe_url_correct": true,
+  "live_post_submitted": false,
+  "backend_inference_or_decoder_rerun": false,
+  "backend_data_persisted_in_frontend": false,
+  "two_laptop_network_tested": false,
+  "elapsed_seconds": 3.2133551000006264
+}

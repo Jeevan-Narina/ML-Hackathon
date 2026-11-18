@@ -1,0 +1,15 @@
+{
+  "gps": [
+    {"longitude": 77.0001, "latitude": 12.0, "timestamp_s": 0.0},
+    {"longitude": 77.0002, "latitude": 12.0, "timestamp_s": 1.0}
+  ],
+  "road_network": {
+    "nodes": [
+      {"node_id": 100, "longitude": 77.0, "latitude": 12.0},
+      {"node_id": 200, "longitude": 77.001, "latitude": 12.0}
+    ],
+    "arcs": [
+      {"arc_id": 900, "from_node_id": 100, "to_node_id": 200}
+    ]
+  }
+}
