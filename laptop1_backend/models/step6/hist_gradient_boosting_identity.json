@@ -1,0 +1,123 @@
+{
+  "identity": {
+    "parameters": {
+      "learning_rate": 0.08809739722151645,
+      "max_iter": 50,
+      "max_leaf_nodes": 7,
+      "max_depth": 4,
+      "min_samples_leaf": 20,
+      "l2_regularization": 0.11945268856959171,
+      "max_bins": 63
+    },
+    "input_identity": {
+      "data_sha256": "8bd018b8e7a3fc7c3d716c5ad114cb7868f4b0911a2f6f253c2f481b971a0d21",
+      "features": [
+        "distance_to_arc_m",
+        "arc_length_m",
+        "arc_bearing_sin",
+        "arc_bearing_cos",
+        "gps_heading_sin",
+        "gps_heading_cos",
+        "heading_difference_deg",
+        "speed_kmh",
+        "dt_previous_s",
+        "displacement_m",
+        "candidate_rank",
+        "position_along_arc",
+        "distance_from_node_m",
+        "distance_to_node_m",
+        "from_out_degree",
+        "to_in_degree",
+        "invalid_coordinates",
+        "duplicate_record",
+        "bad_timestamp",
+        "large_gap",
+        "speed_outlier",
+        "gps_jump",
+        "heading_undefined",
+        "fallback_used",
+        "candidate_count"
+      ],
+      "search_folds": [
+        0
+      ],
+      "seed": 42,
+      "threads": 2,
+      "spaces": {
+        "random_forest": {
+          "n_estimators": [
+            12,
+            24,
+            36
+          ],
+          "max_depth": [
+            8,
+            10,
+            12
+          ],
+          "min_samples_split": [
+            2,
+            10,
+            20
+          ],
+          "min_samples_leaf": [
+            20,
+            40,
+            80
+          ],
+          "max_features": [
+            "sqrt",
+            0.5
+          ],
+          "max_samples": [
+            0.4,
+            0.6
+          ]
+        },
+        "hist_gradient_boosting": {
+          "learning_rate": {
+            "low": 0.04,
+            "high": 0.2,
+            "log": true
+          },
+          "max_iter": [
+            50,
+            75,
+            100
+          ],
+          "max_leaf_nodes": [
+            7,
+            15,
+            23
+          ],
+          "max_depth": [
+            4,
+            6,
+            8,
+            null
+          ],
+          "min_samples_leaf": [
+            20,
+            40,
+            80
+          ],
+          "l2_regularization": {
+            "low": 0.01,
+            "high": 10.0,
+            "log": true
+          },
+          "max_bins": [
+            31,
+            63
+          ]
+        }
+      },
+      "modeling_code": "2d106bb2f8a058c23a468c4f63c0c9e8951a402b12d8bedcac9bfd00525e3690",
+      "optimization_code": "fd3f77bbbf5cc10555a303c60d9716213ff48db2180754527e58b7a4923adc45",
+      "sklearn": "1.9.1",
+      "optuna": "5.1.0"
+    }
+  },
+  "training_seconds": 9.142856299999039,
+  "sha256": "d562362a2014eda84695f0ff6740246b0d6805781dd4790c2e9b68efd9cfbaf1"
+}

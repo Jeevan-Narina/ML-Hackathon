@@ -1,0 +1,7 @@
+{
+  "primary": "random_forest",
+  "backup": "hist_gradient_boosting",
+  "criterion": "Training-only five-fold CV Top-1 primary; log loss and fold stability break exact ties",
+  "independent_test": false,
+  "student_test_used_for_selection": false
+}

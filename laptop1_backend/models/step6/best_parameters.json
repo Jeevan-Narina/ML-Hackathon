@@ -1,0 +1,19 @@
+{
+  "random_forest": {
+    "n_estimators": 36,
+    "max_depth": 12,
+    "min_samples_split": 2,
+    "min_samples_leaf": 20,
+    "max_features": 0.5,
+    "max_samples": 0.4
+  },
+  "hist_gradient_boosting": {
+    "learning_rate": 0.08809739722151645,
+    "max_iter": 50,
+    "max_leaf_nodes": 7,
+    "max_depth": 4,
+    "min_samples_leaf": 20,
+    "l2_regularization": 0.11945268856959171,
+    "max_bins": 63
+  }
+}

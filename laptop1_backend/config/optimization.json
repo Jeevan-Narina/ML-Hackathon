@@ -1,0 +1,7 @@
+{
+  "trials_per_model": 6,
+  "timeout_seconds_per_model": 180,
+  "search_folds": [0],
+  "seed": 42,
+  "threads": 2
+}

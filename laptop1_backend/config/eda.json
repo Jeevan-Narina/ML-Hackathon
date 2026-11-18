@@ -1,0 +1,8 @@
+{
+  "nominal_interval_s": 1.0,
+  "interval_tolerance_s": 0.000001,
+  "gap_s": 5.0,
+  "speed_kmh": 180.0,
+  "jump_m": 500.0,
+  "map_padding_deg": 0.01
+}

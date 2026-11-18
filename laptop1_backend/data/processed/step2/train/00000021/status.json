@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "source_sha256": {
+    "nodes": "3b0fd49276bfed5882833f104ecef0acead12c0ea4d1985e0df468da233ef825",
+    "arcs": "959ec87c68b199a23791a8c23c270af90e07f843a47eef4a74d4b2bf7afd661e",
+    "track": "76100a83a65a418c1e3b9a4705ad70d6af82a4ccf2fcb5cbf363280f99d6c50b"
+  },
+  "configuration": {
+    "search_radius_m": 50.0,
+    "max_candidates": 8,
+    "fallback_radius_m": 150.0,
+    "batch_size": 1024,
+    "max_projection_extent_m": 300000.0,
+    "max_projection_scale_error": 0.005,
+    "min_segment_m": 1e-06
+  },
+  "candidate_rows": 49978,
+  "observations": 15783
+}
